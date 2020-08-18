@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>demo03-grid2-column</title>
+  <style type="text/css">
+    div {
+      border: 1px #000000 solid;
+      background: #a6e1ec
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <strong>基本用法</strong>
+  <div class="row">
+    <div class="col-md-4">col-md-4</div>
+    <div class="col-md-4">col-md-4</div>
+    <div class="col-md-4">col-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">col-md-6</div>
+    <div class="col-xs-6">col-md-6</div>
+  </div>
+  <!--列偏移-->
+  <strong>列偏移</strong>
+  <div class="row">
+    <div class="col-md-3 col-md-offset-3">col-md-3</div>
+    <div class="col-md-2 col-md-offset-2">col-md-2</div>
+  </div>
+  <!--列嵌套-->
+  <strong>列嵌套</strong>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-6">col-md-6</div>
+        <div class="col-md-6">col-md-6</div>
+      </div>
+    </div>
+    <div class="col-md-4">col-md-4</div>
+  </div>
+  <!--列排序-->
+  <strong>列排序</strong>
+  <div class="row">
+    <div class="col-md-3 col-md-push-5">col-md-3</div>
+    <div class="col-md-2 col-md-pull-2">col-md-2</div>
+  </div>
+  <!--跨设备组合定义-->
+  <strong>跨设备组合定义</strong>
+  <div class="row">
+    <div class="col-md-8 col-xs-6 col-sm-3">col-md-8 col-xs-6 col-sm-3</div>
+    <div class="col-md-4 col-xs-6 col-sm-6">col-md-4 col-xs-6 col-sm-6</div>
+  </div>
+
+
+</div>
+
+</body>
+</html>
